@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import User from "../models/userModel.js";
 import validator from "validator";
-import bcrypt from "bcrypt.js";
+import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 
 const TOKEN_EXPIRES_IN = "24h";
